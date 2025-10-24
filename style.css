@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #0656d8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+#container {
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.100);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #0062ff;
+    width: 455px;
+}
+
+.fist-input {
+    outline: none;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.250);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.100);
+    border-radius: 6px;
+    padding: 16px;
+    margin: 10px;
+    width: 330px;
+    height: 55px;
+}
+.fist-label {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.100);
+
+}
+
+.fist-label:hover {
+    font-weight: 900;
+    color: #0866FF;
+    transition: 255ms;
+}
+
+.fist-label:not(:hover) {
+    transition: 255ms;
+}
+
+.fist-input:focus {
+    transition: 255ms;
+    border-color: #0866FF;
+    color: #0866FF;
+    box-shadow: 1px 1px 4px 4px #0867ff1e;
+}
+
+.fist-input:focus::placeholder {
+    color: #0866FF;
+}
+
+.fist-input:not(:focus) {
+    transition: 255ms;
+}
+
+#fist-h1 {
+    font-weight: 700;
+    color: #0866FF;
+    margin-bottom: 16px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.100);
+}
+
+#fist-h1:hover {
+    color: #0656d8;
+    font-weight: 900;
+    transition: 255ms;
+}
+
+#fist-h1:not(:hover) {
+    transition: 555ms;
+}
+
+.fist-input-btn {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #0866FF;
+    color: #F2F4F7;
+    border: none;
+    outline: none;
+    width: 333px;
+    height: 55px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: medium;
+
+}
+
+.fist-input-btn:hover {
+    background-color: #0656d8;
+    font-weight: 900;
+    transition: 555ms;
+}
+
+.fist-input-btn:not(:hover) {
+    transition: 555ms;
+}
